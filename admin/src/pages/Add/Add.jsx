@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import { assets } from "../../assets/assets";
 
 function Add() {
-  const url ="http://localhost:4000"
+  const url ='https://fooddelivery-backend-y2yc.onrender.com'
   const [image, setImage] = useState(false);
   const [data, setdata] = useState({
     name: "",
