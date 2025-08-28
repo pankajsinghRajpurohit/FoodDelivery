@@ -6,7 +6,7 @@ import Cart from './pages/cart/Cart'
 import Verify from './pages/verify/Verify.jsx'
 import PlaceOrder from './pages/placeorder/PlaceOrder'
 import Home from './pages/home/Home.jsx'
-import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/footer/Footer.jsx";
 import LoginPopup from "./components/LoginPopup/LoginPopup.jsx";
 import MyOrders from './pages/MyOrders/MyOrders.jsx'
 
