@@ -10,7 +10,7 @@ function Orders({ url }) {
   const [orders, setorders] = useState([]);
 
   const fetchAllOrders = async () => {
-    const response = await axios.get(url + "/api/order/list");
+    const response = await axios.get(url+"/api/order/list");
     if (response.data.success) {
       setorders(response.data.data);
       console.log(response.data.data);
