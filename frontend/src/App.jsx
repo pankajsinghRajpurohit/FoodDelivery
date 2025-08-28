@@ -3,7 +3,7 @@ import React,{ useState } from 'react'
 import Navbar from './components/Navbar'
 import { Route , Routes} from "react-router-dom"
 import Cart from './pages/cart/Cart'
-import Verify from './pages/verify/verify.jsx'
+import Verify from './pages/verify/Verify.jsx'
 import PlaceOrder from './pages/placeorder/PlaceOrder'
 import Home from './pages/home/Home.jsx'
 import Footer from "./components/Footer/Footer.jsx";
