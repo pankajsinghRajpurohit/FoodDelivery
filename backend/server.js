@@ -12,13 +12,7 @@ const app = express();
 const port=process.env.PORT || 4000;
 
 app.use(express.json());
-app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://fooddelivery-frontend-z4jp.onrender.com"
-  ],
-  credentials: true,
-}));
+app.use(cors());
 //db connection
 connectDB();
 
